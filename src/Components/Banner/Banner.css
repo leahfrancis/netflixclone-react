@@ -1,0 +1,62 @@
+.Banner {
+   
+    background-size:cover;
+    
+    height: 448px;
+     /* Adjust the height as needed */
+  }
+.content{
+    padding-top: 140px;
+    height: 190px;
+    padding-left: 20px;
+}
+.title {
+    position: absolute;
+    top: 70px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+    color: white;
+    font-size: 3rem; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
+  .description {
+    position: absolute;
+    top: 200px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+    color: white;
+    font-size: 1rem; /* Adjust the font size as needed */
+    width: 55rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    max-width:510px ; /* Adjust the width as needed */
+  }
+  
+.banner_buttons {
+    position: absolute;
+    top: 150px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+  }
+  
+.button {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    padding-left:2rem ;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .button:hover{
+    color:black;
+    background-color: #e6e6e6;
+  }
+  .fade_bottom{
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+  }
